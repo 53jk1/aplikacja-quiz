@@ -5,7 +5,7 @@ const quizDane = [
         b: "C",
         c: "Python",
         d: "JavaScript",
-        correct: "d",
+        poprawne: "d",
     },
     {
         pytanie: "Co oznacza skrót CSS?",
@@ -13,7 +13,7 @@ const quizDane = [
         b: "Cascading Style Sheets",
         c: "Cascading Simple Sheets",
         d: "Cars SUVs Sailboats",
-        correct: "b",
+        poprawne: "b",
     },
     {
         pytanie: "Co oznacza skrót HTML?",
@@ -21,7 +21,7 @@ const quizDane = [
         b: "Hypertext Markdown Language",
         c: "Hyperloop Machine Language",
         d: "Helicopters Terminals Motorboats Lamborginis",
-        correct: "a",
+        poprawne: "a",
     },
     {
         pytanie: "W którym roku został wprowadzony JavaScript?",
@@ -29,7 +29,7 @@ const quizDane = [
         b: "1995",
         c: "1994",
         d: "żadne z powyższych",
-        correct: "b",
+        poprawne: "b",
     },
 ];
 
@@ -79,7 +79,7 @@ wyslijPrzycisk.addEventListener('click', () => {
     const odpowiedz = uzyskacWybrane()
     
     if(odpowiedz) {
-        if(odpowiedz === quizDane[aktualnyQuiz].correct) {
+        if(odpowiedz === quizDane[aktualnyQuiz].poprawne) {
             wynik++
         }
 
