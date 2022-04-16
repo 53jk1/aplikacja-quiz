@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aplikacja Quiz</title>
+  </head>
+  <body>
+    <div class="quiz-kontener" id="quiz">
+      <div class="quiz-naglowek">
+        <h2 id="pytanie">Tekst pytania</h2>
+        <ul>
+          <li>
+            <input type="radio" name="odpowiedz" id="a" class="odpowiedz">
+            <label for="a" id="a_tekst">Pytanie</label>
+          </li>
+
+          <li>
+            <input type="radio" name="odpowiedz" id="b" class="odpowiedz">
+            <label for="b" id="b_tekst">Pytanie</label>
+          </li>
+
+          <li>
+            <input type="radio" name="odpowiedz" id="c" class="odpowiedz">
+            <label for="c" id="c_tekst">Pytanie</label>
+          </li>
+
+          <li>
+            <input type="radio" name="odpowiedz" id="d" class="odpowiedz">
+            <label for="d" id="d_tekst">Pytanie</label>
+          </li>
+        </ul>
+      </div>
+      <button id="wyslij">Wyślij</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
